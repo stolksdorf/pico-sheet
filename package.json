@@ -1,0 +1,25 @@
+{
+  "name": "pico-sheet",
+  "version": "1.0.0",
+  "description": "An incredibly tiny library for modifying a Google spreadsheet via API",
+  "main": "pico-sheet.js",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "superagent": "^3.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node tests/basic.test.js",
+    "dist": "dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stolksdorf/pico-sheet.git"
+  },
+  "author": "stolksdorf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stolksdorf/pico-sheet/issues"
+  },
+  "homepage": "https://github.com/stolksdorf/pico-sheet#readme"
+}
