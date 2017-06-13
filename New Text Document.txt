@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.5.4/react.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.5.4/react-dom.min.js'></script>
+</head>
+<body>
+	<main id='react_root'></main>
+</body>
+<script src="https://unpkg.com/babel-standalone@6/babel.js" charset="utf-8"></script>
+<script type='text/jsx'>
+	const temp = (props)=>{
+		return <div className='neato'>neat {props.a}</div>
+	}
+	const root = document.getElementById('react_root')
+	const element = React.createElement(temp, {a:6});
+	ReactDOM.render(element, root);
+</script>
+</html>

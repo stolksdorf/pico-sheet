@@ -12,3 +12,7 @@ An incredibly tiny library for modifying a Google spreadsheet via API
 
 AIzaSyCjm-IXZxQww4vvw26ErDm6pdsJFcCGLck
 https://docs.google.com/spreadsheets/d/1eKm3rrzb5ErhCAz4Oyxzo-22rLuthH4WNp5b8GQUzFQ/edit#gid=0
+
+
+
+- add an https://unpkg.com/#/about link to get the dist version of the lib
