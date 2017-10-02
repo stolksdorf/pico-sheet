@@ -4,13 +4,17 @@
   "description": "An incredibly tiny library for modifying a Google spreadsheet via API",
   "main": "pico-sheet.js",
   "dependencies": {
+    "google-auth-library": "^0.11.0",
+    "googleapis": "^22.2.0",
     "lodash": "^4.17.4",
     "superagent": "^3.5.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "ava": "^0.22.0"
+  },
   "scripts": {
-    "test": "node tests/basic.test.js",
-    "test:dev": "nodemon tests/basic.test.js",
+    "test": "ava -s -v",
+    "test:dev": "ava -s -w",
     "dist": "dist"
   },
   "repository": {

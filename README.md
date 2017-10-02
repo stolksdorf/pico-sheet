@@ -16,3 +16,13 @@ https://docs.google.com/spreadsheets/d/1eKm3rrzb5ErhCAz4Oyxzo-22rLuthH4WNp5b8GQU
 
 
 - add an https://unpkg.com/#/about link to get the dist version of the lib
+
+
+-- Using a service account
+https://developers.google.com/identity/protocols/OAuth2ServiceAccount#authorizingrequests
+
+https://developers.google.com/identity/protocols/OAuth2ServiceAccount
+
+
+
+https://developers.google.com/apis-explorer/#p/sheets/v4/

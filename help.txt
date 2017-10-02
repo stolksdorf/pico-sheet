@@ -1,0 +1,6 @@
+For context, making a super simple app, just trying to read and write values to a simple sheet via the API
+
+- I've enabled the proper libraries via the API manager on the dev console (https://console.developers.google.com/apis/library)
+- The permissions on the Sheet have been set to 'everyone' and 'published'
+- I have created an API key to use on the dev console under Credentials
+- I can use this API key to do GET requests perfectly, but I'm getting 401 errors when trying to update the data via PUT requests
